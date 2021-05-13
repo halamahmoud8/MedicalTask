@@ -1,0 +1,188 @@
+.section{
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFFF ;
+    overflow-x: hidden;
+    direction: rtl;
+
+    .doctor-type{
+        padding: 20px 150px;
+        direction: rtl;
+
+        .headeer-data{
+            font-size: 18px;
+            color: #F5AA4B;
+            font-family:Cairo-Bold;
+        }
+        .align{
+            text-align: center;
+        }
+        .header-2{
+            font-size: 16px;
+            color: #0071B7;
+            font-family:Cairo-Regular;
+        }
+        .display-card{
+            display: flex;
+        }
+        .small-div{
+            background-color: #F4F5F8;
+            margin-left: 10px;
+            border-radius: 7px;
+            width: 30%;
+            display: flex;
+            height: 60px;
+            padding: 10px;
+        }
+        .third-div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            background: #F4F5F8;
+            margin-right: 43%;
+    margin-bottom: 12px;
+        }
+        .header{
+            color: #0071B7;
+            font-family:Cairo-Bold;
+            font-size: 18px;
+        }
+        .defination{
+            color: #3B4358;
+font-family:Cairo-Regular;
+font-size: 14px;
+        }
+        .searching{
+            background-color:#F4F5F8 ;
+            border-radius: 4px;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 100px;
+            .seatch-info{
+                padding: 100px;
+                width: 35%;            }
+            .search-img{
+                width: 20%;
+                height: 70%;
+                margin-top: -10%;
+            }
+            .search-img-2{
+                width: 20%;
+                height: 70%;
+                margin-top: -6%;
+                margin-left: -6%;
+            }
+            .search-button{
+                display: flex;
+                .first-div{
+                    background-color: #FFFFFF;
+                    display: flex;
+                    border-radius: 4px;
+                    height: 30%;
+                    padding: 5px;
+                    width: 30%;
+                    margin-left: 20px;
+                    .first-div-img{
+                        width: 20%;
+                     margin-right: 5px;
+                    }
+                    .second-div-img{
+                        width: 17%;
+                        margin-right: 5px;
+
+                    }
+                    .first-div-info{
+                        color: #0071B7;
+                        font-family:Cairo-Bold;
+                        font-size: 12px;
+                        margin: 0 !important;
+                    }
+                }
+
+            }
+        }
+        .first-img{
+            width: 70%;
+        }
+        .second-img{
+            width: 60%;
+        }
+        .specialist{
+color: #3B4358;
+font-family:Cairo-Regular;
+font-size: 18px;
+
+
+        }
+        .add-help{
+color: #F5AA4B;
+font-family:Cairo-Regular;
+font-size: 16px;
+
+
+        }
+        img{
+            width: 98%;
+        }
+        .mg-l-10{
+            margin-left: 10px;
+        }
+    }
+    .search{
+        display: flex;
+        padding: 20px 150px;
+        img{
+            width: 100%;
+        }
+        .search-div-1{
+            position: relative;
+       
+.h1{
+    position: absolute;
+    top: 27%;
+right: 40px;
+color: #FFFFFF;
+font-size: 20px;
+font-family:Cairo-Bold;
+
+}
+.h2{
+    position: absolute;
+    top: 40%;
+    right: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family:Cairo-Regular;
+
+
+}
+.button{
+    background-color: #F5AA4B;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Cairo-Bold;
+    width: 130px;
+    text-align: center;
+    position: relative;
+    top: -26%;
+    right: 40px;}
+        }
+     
+    }
+    .mg-l{
+        margin-left: 0 !important;
+    }
+    .mb-100{
+        margin-bottom: 100px;
+    }
+
+
+}
