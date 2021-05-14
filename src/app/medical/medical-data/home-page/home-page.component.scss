@@ -4,11 +4,26 @@
     background-color:#FFFFFF ;
     overflow-x: hidden;
     direction: rtl;
-
+.mg-t-100{
+    margin-top: 100px;
+}
     .doctor-type{
         padding: 20px 150px;
         direction: rtl;
-
+.header-display{
+    display: flex;
+}
+.button-div{
+    width: 50%;
+}
+.button{
+    float: left;
+    background-color: white;
+    border: 1px solid #F5AA4B;
+    color: #374053;
+    font-family:Cairo-Bold;
+font-size: 14px;
+}
         .headeer-data{
             font-size: 18px;
             color: #F5AA4B;

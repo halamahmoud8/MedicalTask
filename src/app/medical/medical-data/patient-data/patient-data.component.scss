@@ -21,15 +21,37 @@
         }
         .label{
             margin-bottom: 5px !important;
-            font-size: 14px;
+            font-size: 12px;
              font-family: Cairo-Bold;
              color: #3B4358;
+}
+.handel{
+    float: left;
+    margin-top: -17px;
+    font-size: 10px;
+    color: #707789;
+    font-family: Cairo-Regular;
+}
+.span-img{
+    width: 60%;
+    margin-left: -6px;
 }
         .special-padding{
             padding: 0 80px;
         }
         .small-input{
             display: flex;
+        }
+        .display-small-input{
+            display: flex;
+            width: 45%;
+        }
+        .inner-input{
+            width: 30%;
+    margin-left: 10px;
+        }
+        .mg-l-0{
+            margin-left: 0 !important;
         }
         .mg-r-40{
             margin-right: 40px;
@@ -52,12 +74,14 @@
                 font-family: Cairo-Bold;
                 color:#0071B7 ;
                 margin-right: 16px;
+                margin-top: 10px;
         
             }
             .data{
                 font-size: 18px;
                 font-family: Cairo-Bold;
                 color:#0071B7 ;
+                margin-top: 10px;
         
             }
             .data::after { 
@@ -79,6 +103,7 @@
                         font-size: 24px;
                         font-family: Cairo-Bold;
                         color:#0071B7 ;
+                        margin-top: 10px;
                     }
                 }
         .details{
@@ -99,6 +124,9 @@
                 padding: 0 20px;
                 margin-bottom: 20px;
             }
+            .mg-b-70{
+                margin-bottom: 70px;
+            }
        
             .small-header{
             color: #475A76;
@@ -113,8 +141,8 @@
         }
         .conclusion{
             background-color:#EBEBEB;
-            width: 98%;
-            margin: 0 12px;
+            width: 100%;
+            // margin: 0 12px;
             margin-top: 100px;
             .data{
                 margin-top: 30px;
@@ -131,4 +159,15 @@
             width: 130px;
             text-align: center;
             margin: 50px 0;
+        }
+        .hide-scroll{
+            height: auto;
+        }
+        ::ng-deep.mat-radio-button {
+            font-family:Cairo-Regular !important;
+          
+        }
+        ::ng-deep.mat-radio-label-content {
+       
+            padding-right: 8px !important;
         }

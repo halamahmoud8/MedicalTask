@@ -1,4 +1,4 @@
-<div class="section mg-50">
+<div class="section mg-50 hide-scroll">
     <div class="header-1">
         <div class="row">
 
@@ -36,7 +36,7 @@
                         <img src="../../../../assets/img/notes.svg">
                         <p class="small-header"> نتحقق من التأمين الخاص بك لنعرض لك افضل سعر متاح لك</p>
                     </div>
-                    <div class="inner-data">
+                    <div class="inner-data mg-b-70">
                         <img src="../../../../assets/img/deliver.svg">
                         <p class="small-header"> يصلك الدواء لحد باب البيت</p>
                     </div>
@@ -56,11 +56,14 @@
                         <mat-form-field class="mb-14" appearance="fill">
                             <!-- <mat-label>الاسم</mat-label> -->
                             <input matInput placeholder=" 01154785594" />
-
+                            <span class="handel">تعديل</span>
                         </mat-form-field>
                         <p class="label">العنوان</p>
                         <mat-form-field class="mb-14" appearance="fill">
                             <input matInput placeholder=" تحديد موقعي الحالي" />
+                            <span class="handel">
+                                <img class="span-img" src="../../../../assets/img/location.svg">
+                            </span>
 
                         </mat-form-field>
                         <div class="small-input">
@@ -111,8 +114,47 @@
 
 
                         </div>
+                        <div class="small-input">
+
+                            <div class="display-small-input">
+                                <div class="inner-input">
+                                <p class="label">رقم المبني  </p>
+                                <mat-form-field class="mb-14 " appearance="fill">
+                                    <!-- <mat-label>الاسم</mat-label> -->
+                                    <input matInput placeholder="" />
+
+                                </mat-form-field>
+                            </div>
+                            <div class="inner-input">
+                                <p class="label"> الدور </p>
+                                <mat-form-field class="mb-14 " appearance="fill">
+                                    <!-- <mat-label>الاسم</mat-label> -->
+                                    <input matInput placeholder=" " />
+
+                                </mat-form-field>
+                            </div>
+                            <div class="inner-input mg-l-0">
+                                <p class="label"> الشقة </p>
+                                <mat-form-field class="mb-14 " appearance="fill">
+                                    <!-- <mat-label>الاسم</mat-label> -->
+                                    <input matInput placeholder=" " />
+
+                                </mat-form-field>
+                            </div>
+                            </div>
+                            <div class="mg-r-40">
+                                <p class="label"> أقرب مكان مميز </p>
+                                <mat-form-field class="mb-14 " appearance="fill">
+                                    <!-- <mat-label>الاسم</mat-label> -->
+                                    <input matInput placeholder=" ادخل اسم أقرب مكان مميز" />
+
+                                </mat-form-field>
+                            </div>
+
+
+                        </div>
                         <div></div>
-                        <label id="example-radio-group-label">هل لديك اشتراك في تأمين صحي ؟</label>
+                        <label class="label" id="example-radio-group-label">هل لديك اشتراك في تأمين صحي ؟</label>
                         <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group">
                             <mat-radio-button class="example-radio-button" value="نعم">
                                 نعم </mat-radio-button>
